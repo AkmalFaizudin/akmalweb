@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="shortcut Icon" type="image/png" href="contacts.png">
+    <style>
+        
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #000;
+            background-color: #e0e0e0;
+        }
+        h1, h2, p {
+            margin: 0;
+        }
+
+        
+        .navbar {
+        background-color: #003366;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+        position: relative;
+    }
+
+    .navbar-title {
+        position: absolute;
+        left: 10px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .navbar a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .navbar a:hover {
+        background-color: #002244;
+    }
+
+        
+        .contact-section {
+            max-width: 800px;
+            margin: 40px auto;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .contact-section h2 {
+            color: #003366;
+            margin-bottom: 20px;
+        }
+
+        .social-media-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        
+        .social-media-item {
+            text-align: center;
+            width: 150px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .social-media-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        .social-media-item img {
+            width: 70px;
+            height: 70px;
+            margin-bottom: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .social-media-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .social-media-item p {
+            margin: 0;
+            font-size: 14px;
+            color: #333;
+        }
+
+        
+        .footer {
+            background-color: #003366;
+            text-align: center;
+            color: white;
+            padding: 15px 0;
+            font-size: 14px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <div class="navbar">
+        <div class="navbar-title">Shashi's Family</div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="achievement.html">Achievements</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html" class="active">Contact</a>
+    </div>
+
+    
+    <div class="contact-section">
+        <h2>My family Social Media / Contact</h2>
+        <p>Feel free to reach out us!<br><br></p>
+
+        <div class="social-media-container">
+            
+            <div class="social-media-item">
+                <a href="https://www.facebook.com/shashi.bohri.31?mibextid=ZbWKwL" target="_blank">
+                    <img src="facebookIcon1.png" alt="Facebook">
+                </a>
+                <strong><p>My Father's Facebook</p></strong>
+            </div>
+
+
+            <div class="social-media-item">
+                <a href="https://www.facebook.com/asbahria.amirdha?mibextid=ZbWKwL" target="_blank">
+                    <img src="facebookIcon1.png" alt="Facebook">
+                </a>
+                <strong><p>My Mother's Facebook</p></strong>
+            </div>
+
+            <div class="social-media-item">
+                <a href="https://www.instagram.com/akmal.faizudinn/profilecard/?igsh=MTBuMHBmem4yaGdrNg==" target="_blank">
+                    <img src="IgLogoNew.png" alt="Facebook">
+                </a>
+                <strong><p>My Own Instagram account</p></strong>
+            </div>
+
+
+           
+            </div>
+        </div>
+    </div>
+    
+
+    <br><br><br><br><br><br><br><br><br><br>
+    <center>
+    <form name="form1" method="post" action="mailto:mohdakmal569@gmail.com">
+        Name: <input name="name" type="text"> <p> <br>
+        Subject: <input name="subject" type="text"> <p> <br>
+        Message: <textarea name="message"></textarea> <p>
+        <input name="submit" type="submit" value="submit">
+        </form>
+    </center>
+
+    
+    
+    <div class="footer">
+        &copy; MOHAMMAD AKMAL FAIZUDIN BIN SHASHI - [2024] <br>
+        <p>
+            This website is created only for the purpose of IMD318
+        </p>
+    </div>
+</body>
+</html>
